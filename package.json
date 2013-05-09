@@ -1,0 +1,36 @@
+{
+  "name": "symmetric-tensor-eval",
+  "version": "0.0.0",
+  "description": "Evaluates a multivariable polynomial",
+  "main": "eval.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "multinomial": "~0.0.0",
+    "bit-twiddle": "~0.0.2",
+    "symmetric-tensor-index": "~0.1.0"
+  },
+  "devDependencies": {
+    "tap": "~0.4.2"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/symmetric-tensor-eval.git"
+  },
+  "keywords": [
+    "polynomial",
+    "symmetric",
+    "tensor",
+    "evaluate",
+    "vector",
+    "multinomial"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "0d1400f1f77c344f7bf3791f90b88164e27d7dec"
+}
